@@ -7,7 +7,9 @@
     font-family: 'Roboto', sans-serif;text-decoration: none;
 }
 .cabecalho{
-    height: 120px;
+    height: 180px;
+    background-color: #000000;
+    
 }
 .logo{
     position: absolute;
@@ -15,6 +17,28 @@
     left: 30px;
     top: 15px;
     margin: 20px 0 0 20px;
+}
+.menu{
+    
+    position: absolute;
+    width: 100%;
+    background-color: #ddb815;
+    padding: 18px;
+}
+.menu li{
+    display: inline;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    
+}
+.menu a{
+    color: #000000;
+    font-weight: bold;
+    font-size: larger;
+}
+.menu a:hover{
+    color: #ffffff;
 }
 .name{
     cursor: pointer;
@@ -35,28 +59,6 @@
     width: 300px;
     border: #0f7517 double 5px;
 }
-.menu{
-    margin-top: 50px;
-    position: absolute;
-    width: 100%;
-    background-color: #000000;
-    padding: 18px;
-}
-.menu li{
-    display: inline;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 40px;
-    
-}
-.menu a{
-    color: #ffffff;
-    font-weight: bold;
-    font-size: larger;
-}
-.menu a:hover{
-    color: #ebdc0d;
-}
 .gradient{
     background: linear-gradient(45deg, #010105,#080e5e,#09611f,#070401);
     background-size: 300% 300%;
@@ -74,7 +76,7 @@
     }
 }
 #sobre{
-    margin-top: 109px;
+    margin-top: 30px;
     padding-left: 20px;
     
 }
